@@ -2,7 +2,7 @@ let display = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
 
 let string = '';
-let clickSound = new Audio('button.mp3');
+let clickSound = new Audio('button-4-214382.mp3');
 
 Array.from(buttons).forEach(function(btn) {
   btn.addEventListener('click', (e) => {
